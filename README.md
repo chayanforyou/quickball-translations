@@ -1,51 +1,63 @@
 # Welcome to QuickBall Translations
 
-### Here you can contribute by translating to official [QuickBall](https://github.com/ChayanMistry/QuickBall)
+Here you can contribute by translating the official [QuickBall](https://github.com/ChayanMistry/QuickBall) Android app!
 
-### Steps
+### How to Contribute
 
-1. **Choose your language and start translating!**
-2. **Read the guide below before translating**, especially if the string contains placeholders.
-3. Once your translation is ready, submit a Pull Request to this repository.
+1. **Choose your language** from the list below, or create a new translation directory if your language isn't listed yet.
+2. **Read the guidelines below** before translating, especially regarding placeholders and XML formatting.
+3. **Submit a Pull Request** with your updated or new translation file.
 4. After review, your translation will be included in the QuickBall app.
+
+---
+
+## Supported Languages
+
+| Language | Translation | Contributors |
+| -------- | ------ | ------------ |
+| English | [`values/strings.xml`](translations/values/strings.xml) | [@chayanforyou](https://github.com/chayanforyou) |
+| Chinese (中文) | [`values-zh/strings.xml`](translations/values-zh/strings.xml) | [@chayanforyou](https://github.com/chayanforyou) |
+| German (Deutsch) | [`values-de/strings.xml`](translations/values-de/strings.xml) | [@chayanforyou](https://github.com/chayanforyou) |
+| Hindi (हिन्दी) | [`values-hi/strings.xml`](translations/values-hi/strings.xml) | [@chayanforyou](https://github.com/chayanforyou) |
+| Italian (Italiano) | [`values-it/strings.xml`](translations/values-it/strings.xml) | [@chayanforyou](https://github.com/chayanforyou) |
+| Portuguese (Português) | [`values-pt/strings.xml`](translations/values-pt/strings.xml) | [@chayanforyou](https://github.com/chayanforyou) |
+| Spanish (Español) | [`values-es/strings.xml`](translations/values-es/strings.xml) | [@chayanforyou](https://github.com/chayanforyou) |
+
+*More languages will be added as the community contributes.*
+
+---
 
 ## Translation Guidelines
 
-### Plain strings
+### Plain Strings
 
-These are the easy ones. Just translate the text naturally.
+These are standard text strings. Translate only the text between the XML tags naturally.
 
 ```xml
 <string name="settings">Settings</string>
 ```
 
-For example:
+For example (in Bangla):
 
 ```xml
 <string name="settings">সেটিংস</string>
 ```
 
-Do **not** translate the `name`:
-
-```text
-settings
-```
-
-Only translate the text between the tags.
+Do **not** translate the `name` attribute (e.g. `settings`). Only translate the inner text.
 
 ---
 
 ### Placeholders
 
-Some strings contain placeholders that are replaced by the app at runtime.
+Some strings contain placeholders that are replaced dynamically by the app at runtime.
 
 ```xml
 <string name="welcome_user">Welcome, %1$s!</string>
 ```
 
-`%1$s` is a **placeholder**. Never translate, remove, or modify it.
+`%1$s` is a **placeholder**. Never translate, remove, or alter placeholder formats.
 
-You can move it around to fit your language's natural word order:
+You can reposition placeholders to fit your language's natural word order:
 
 ```xml
 <string name="welcome_user">%1$s-কে স্বাগতম!</string>
@@ -63,29 +75,21 @@ Can become:
 <string name="file_count">%1$dটি ফাইল</string>
 ```
 
-### Things to keep in mind
+---
 
-1. **Never translate or modify resource names.**
-2. **Never translate anything such as `%1$s`, `%1$d`, `%s`, `%d`, etc.**
-3. You can move placeholders around when required by your language.
-4. Keep XML tags and special characters intact.
-5. Translate naturally rather than translating word-for-word.
-6. If you're unsure about a translation, leave a comment in Weblate for discussion.
+### Guidelines to Remember
+
+1. **Never translate or modify resource names (`name="..."`).**
+2. **Never translate placeholders** such as `%1$s`, `%1$d`, `%s`, `%d`, etc.
+3. You can adjust placeholder positions to match your language's syntax.
+4. Keep XML tags, formatting, and special characters intact (e.g., `\n`, `&amp;`).
+5. Translate naturally rather than doing literal word-for-word translations.
+6. If you're unsure about a translation, leave a comment on your Pull Request or open an Issue for discussion.
+
+---
 
 ### Specialito
 
 By translating QuickBall, you are officially a **nice, great and specialito person**. ❤️
 
 Your contribution helps make QuickBall accessible to more people around the world. Thank you so much!
-
-## Supported Languages
-
-Translations will be listed here as they become available.
-
-| Language | Contributors | Translation                             |
-| -------- | ------------ | --------------------------------------- |
-| English  | —            | [`values/`](translations/values/)       |
-| Bangla   | —            | [`values-bn/`](translations/values-bn/) |
-
-More languages will be added as the community contributes.
-
