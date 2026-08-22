@@ -89,8 +89,3 @@ Translations will be listed here as they become available.
 
 More languages will be added as the community contributes.
 
----
-
-<a href="https://translate.codeberg.org/engage/quickball-translations/">
-<img src="https://translate.codeberg.org/widget/quickball-translations/quickballcomponent/multi-auto.svg" alt="Translation status" />
-</a>
