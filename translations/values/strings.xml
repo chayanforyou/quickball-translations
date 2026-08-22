@@ -1,0 +1,156 @@
+<resources>
+    <string name="app_name">Quick Ball</string>
+    <string name="remove_battery_restriction">Don’t kill my app</string>
+    <string name="github_repository">GitHub Repository</string>
+    <string name="support_me">If you love my work.\nplease consider supporting me</string>
+
+    <!-- Accessibility Service (for AndroidManifest.xml) -->
+    <string name="accessibility_service_description">QuickBall floating ball service that provides a floating ball overlay on your screen for quick access to features.</string>
+
+    <!-- Home Fragment -->
+    <string name="home_title">Quick ball</string>
+    <string name="enable_quick_ball">Turn on Quick ball</string>
+    <string name="settings_label">Settings</string>
+
+    <!-- Setup Card -->
+    <string name="turn_on_quick_ball">Turn on Quick Ball</string>
+    <string name="accessibility_setup_description">Quick Ball needs Accessibility access to show the floating button and perform navigation actions.</string>
+    <string name="open_accessibility_settings">Open Accessibility settings</string>
+
+    <!-- Onboarding & Permissions -->
+    <string name="onboarding_title">Meet Quick Ball</string>
+    <string name="onboarding_subtitle">A floating button that puts one-handed navigation and quick actions anywhere on your screen. It never reads screen content, and nothing leaves your device.</string>
+    <string name="onboarding_bullet_1">Home, Back, Recents and more from a fan menu you design</string>
+    <string name="onboarding_bullet_2">Swipe gestures, media controls and one-tap shortcuts</string>
+    <string name="onboarding_get_started">Get started</string>
+    <string name="onboarding_permissions_title">Permissions</string>
+    <string name="onboarding_permissions_subtitle">Quick Ball needs just these two to run. Anything else is asked for only when you turn on a feature that needs it.</string>
+    <string name="onboarding_accessibility_title">Accessibility</string>
+    <string name="onboarding_accessibility_description">Powers the floating button and lets Quick Ball perform navigation actions like Home, Back and Recents. It never reads screen content.</string>
+    <string name="onboarding_system_settings_description">Lets Quick Ball adjust system settings like screen brightness and volume directly from the floating menu.</string>
+    <string name="onboarding_permissions_warning">Quick Ball needs Accessibility and System Settings permissions to work properly.</string>
+    <string name="onboarding_back">Back</string>
+    <string name="onboarding_start_using">Start using Quick Ball</string>
+    <string name="permission_granted">Granted</string>
+    <string name="permission_grant">Grant</string>
+
+    <!-- Shortcut -->
+    <string name="shortcuts_title">Select shortcuts</string>
+
+    <!-- Hide Automatically -->
+    <string name="hide_automatically_title">Hide automatically</string>
+    <string name="hide_automatically_description">Hide Quick ball in selected apps.</string>
+
+    <!-- Advanced Settings -->
+    <string name="advanced_settings_title">Advanced settings</string>
+
+    <!-- Show On Lock Screen -->
+    <string name="show_on_lock_screen_title">Show on Lock screen</string>
+
+    <!-- Hide On Landscape -->
+    <string name="hide_on_landscape_title">Hide on Landscape</string>
+
+    <!-- Stick to Edge -->
+    <string name="stick_to_edge_title">Stick to edge after inactivity</string>
+
+    <!-- Ball Size -->
+    <string name="ball_size_title">Ball size</string>
+
+    <!-- System Settings Permission -->
+    <string name="system_settings_title">Modify System Settings</string>
+
+    <!-- Select Shortcut Fragment -->
+    <string name="quick_settings_title">Quick settings</string>
+    <string name="apps_title">Apps</string>
+    <string name="select_shortcut_description">Choose a shortcut to replace the current one</string>
+    <string name="reorder_shortcut_description">Drag a shortcut to reorder its position</string>
+    <string name="drag_handle_description">Drag to reorder</string>
+
+    <!-- Language Settings -->
+    <string name="language_title">Language</string>
+    <string name="language_description">Choose app language</string>
+    
+    <!-- Quick Ball Menu Items -->
+    <!-- Navigation -->
+    <string name="menu_home">Home</string>
+    <string name="menu_back">Back</string>
+    <string name="menu_recent">Recent Apps</string>
+    
+    <!-- Display -->
+    <string name="menu_brightness_up">Brightness Up</string>
+    <string name="menu_brightness_down">Brightness Down</string>
+    <string name="menu_torch">Torch</string>
+    <string name="menu_auto_rotate">Auto Rotate</string>
+    
+    <!-- Media & Sound -->
+    <string name="menu_volume_up">Volume Up</string>
+    <string name="menu_volume_down">Volume Down</string>
+    <string name="menu_silent">Silent</string>
+    <string name="menu_vibration">Vibration</string>
+    <string name="menu_play_pause">Play/Pause</string>
+    <string name="menu_next_track">Next Track</string>
+    <string name="menu_previous_track">Previous Track</string>
+    <string name="menu_volume_bar">Volume Bar</string>
+    <string name="menu_volume_panel">Open Volume Panel</string>
+    
+    <!-- Connectivity -->
+    <string name="menu_wifi">Wi-Fi</string>
+    <string name="menu_bluetooth">Bluetooth</string>
+    <string name="menu_mobile_data">Mobile Data</string>
+    <string name="menu_airplane_mode">Airplane Mode</string>
+    
+    <!-- Utilities -->
+    <string name="menu_screenshot">Screenshot</string>
+    <string name="menu_lock_screen">Lock Screen</string>
+    <string name="menu_notification">Notification</string>
+    <string name="menu_quick_settings">Control Center</string>
+    <string name="menu_power_dialog">Power Menu</string>
+
+    <!-- Color Picker -->
+    <string name="choose_color">Choose Color</string>
+    <string name="hex_color_hint">Hex Color (#AARRGGBB)</string>
+    <string name="select">Select</string>
+    <string name="cancel">Cancel</string>
+
+    <!-- Appearance & Customization -->
+    <string name="reset_to_default">Reset to default</string>
+    <string name="ball_header_title">Ball</string>
+    <string name="ball_color_title">Ball color</string>
+    <string name="ball_icon_color_title">Icon color</string>
+    <string name="menu_header_title">Menu</string>
+    <string name="menu_color_title">Menu color</string>
+    <string name="menu_icon_color_title">Icon color</string>
+    <string name="menu_size_title">Menu size</string>
+    <string name="menu_icon_size_title">Icon size</string>
+    <string name="menu_radius_title">Menu radius</string>
+    <string name="pill_header_title">Pill</string>
+    <string name="pill_color_title">Pill color</string>
+    <string name="pill_height_title">Pill height</string>
+    <string name="pill_thickness_title">Pill thickness</string>
+    <string name="pill_touch_width_title">Touch area width</string>
+    <string name="pill_arc_angle_title">Pill arc angle</string>
+
+    <!-- Toast -->
+    <string name="toast_header_title">Toast</string>
+    <string name="toast_bg_color_title">Background color</string>
+    <string name="toast_fg_color_title">Foreground color</string>
+
+    <!-- Gestures -->
+    <string name="gesture_header_title">Gesture</string>
+    <string name="enable_gestures_title">Enable gestures</string>
+    <string name="enable_gestures_description">Enabling gestures may slightly delay opening the menu.</string>
+    <string name="double_tap_title">Double tap</string>
+    <string name="triple_tap_title">Triple tap</string>
+    <string name="long_press_title">Long press</string>
+    <string name="swipe_up_title">Swipe up</string>
+    <string name="swipe_down_title">Swipe down</string>
+    <string name="select_gesture_action_title">Select Action</string>
+
+    <!-- Haptics -->
+    <string name="haptics_header_title">Haptics</string>
+    <string name="vibration_feedback_title">Vibration feedback</string>
+    <string name="vibration_feedback_description">Tick on taps, swipes, and actions</string>
+    <string name="haptic_light">Light</string>
+    <string name="haptic_medium">Medium</string>
+    <string name="haptic_strong">Strong</string>
+</resources>

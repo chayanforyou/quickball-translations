@@ -1,0 +1,156 @@
+<resources>
+    <string name="app_name">Quick Ball</string>
+    <string name="remove_battery_restriction">Non chiudere la mia app</string>
+    <string name="github_repository">Repository GitHub</string>
+    <string name="support_me">Se ami il mio lavoro.\nper favore considera di supportarmi</string>
+
+    <!-- Accessibility Service (for AndroidManifest.xml) -->
+    <string name="accessibility_service_description">Servizio QuickBall che fornisce una sfera fluttuante sullo schermo per un accesso rapido alle funzionalità.</string>
+
+    <!-- Home Fragment -->
+    <string name="home_title">Quick ball</string>
+    <string name="enable_quick_ball">Attiva Quick ball</string>
+    <string name="settings_label">Impostazioni</string>
+
+    <!-- Setup Card -->
+    <string name="turn_on_quick_ball">Attiva Quick Ball</string>
+    <string name="accessibility_setup_description">Quick Ball richiede l\'accesso all\'accessibilità per mostrare il pulsante fluttuante ed eseguire azioni di navigazione.</string>
+    <string name="open_accessibility_settings">Apri impostazioni di accessibilità</string>
+
+    <!-- Onboarding & Permissions -->
+    <string name="onboarding_title">Scopri Quick Ball</string>
+    <string name="onboarding_subtitle">Un pulsante fluttuante che ti permette di navigare a una mano e accedere ad azioni rapide ovunque sullo schermo. Non legge mai il contenuto dello schermo e nulla lascia il tuo dispositivo.</string>
+    <string name="onboarding_bullet_1">Home, Indietro, App recenti e altro da un menu a ventaglio progettato da te</string>
+    <string name="onboarding_bullet_2">Gesti di scorrimento, controlli multimediali e scorciatoie con un tocco</string>
+    <string name="onboarding_get_started">Inizia</string>
+    <string name="onboarding_permissions_title">Autorizzazioni</string>
+    <string name="onboarding_permissions_subtitle">Quick Ball necessita solo di queste due autorizzazioni per funzionare. Tutte le altre vengono richieste solo quando attivi una funzione che le richiede.</string>
+    <string name="onboarding_accessibility_title">Accessibilità</string>
+    <string name="onboarding_accessibility_description">Gestisce il pulsante fluttuante e consente a Quick Ball di eseguire azioni di navigazione come Home, Indietro e Recenti. Non legge mai il contenuto dello schermo.</string>
+    <string name="onboarding_system_settings_description">Consente a Quick Ball di regolare le impostazioni di sistema come luminosità e volume direttamente dal menu fluttuante.</string>
+    <string name="onboarding_permissions_warning">Quick Ball richiede le autorizzazioni di Accessibilità e Impostazioni di Sistema per funzionare correttamente.</string>
+    <string name="onboarding_back">Indietro</string>
+    <string name="onboarding_start_using">Inizia a usare Quick Ball</string>
+    <string name="permission_granted">Concesso</string>
+    <string name="permission_grant">Concedi</string>
+
+    <!-- Shortcut -->
+    <string name="shortcuts_title">Seleziona scorciatoie</string>
+
+    <!-- Hide Automatically -->
+    <string name="hide_automatically_title">Nascondi automaticamente</string>
+    <string name="hide_automatically_description">Nascondi Quick ball nelle app selezionate.</string>
+
+    <!-- Advanced Settings -->
+    <string name="advanced_settings_title">Impostazioni avanzate</string>
+
+    <!-- Show On Lock Screen -->
+    <string name="show_on_lock_screen_title">Mostra sulla schermata di blocco</string>
+
+    <!-- Hide On Landscape -->
+    <string name="hide_on_landscape_title">Nascondi in orizzontale</string>
+
+    <!-- Stick to Edge -->
+    <string name="stick_to_edge_title">Aggancia al bordo dopo inattività</string>
+
+    <!-- Ball Size -->
+    <string name="ball_size_title">Dimensione sfera</string>
+
+    <!-- System Settings Permission -->
+    <string name="system_settings_title">Modifica impostazioni di sistema</string>
+
+    <!-- Select Shortcut Fragment -->
+    <string name="quick_settings_title">Impostazioni rapide</string>
+    <string name="apps_title">App</string>
+    <string name="select_shortcut_description">Scegli una scorciatoia per sostituire quella attuale</string>
+    <string name="reorder_shortcut_description">Trascina una scorciatoia per riordinarne la posizione</string>
+    <string name="drag_handle_description">Trascina per riordinare</string>
+
+    <!-- Language Settings -->
+    <string name="language_title">Lingua</string>
+    <string name="language_description">Scegli la lingua dell\'app</string>
+    
+    <!-- Quick Ball Menu Items -->
+    <!-- Navigation -->
+    <string name="menu_home">Home</string>
+    <string name="menu_back">Indietro</string>
+    <string name="menu_recent">App recenti</string>
+    
+    <!-- Display -->
+    <string name="menu_brightness_up">Aumenta luminosità</string>
+    <string name="menu_brightness_down">Diminuisci luminosità</string>
+    <string name="menu_torch">Torcia</string>
+    <string name="menu_auto_rotate">Rotazione automatica</string>
+    
+    <!-- Media & Sound -->
+    <string name="menu_volume_up">Aumenta volume</string>
+    <string name="menu_volume_down">Diminuisci volume</string>
+    <string name="menu_silent">Silenzioso</string>
+    <string name="menu_vibration">Vibrazione</string>
+    <string name="menu_play_pause">Riproduci/Pausa</string>
+    <string name="menu_next_track">Traccia successiva</string>
+    <string name="menu_previous_track">Traccia precedente</string>
+    <string name="menu_volume_bar">Barra del volume</string>
+    <string name="menu_volume_panel">Apri pannello volume</string>
+    
+    <!-- Connectivity -->
+    <string name="menu_wifi">Wi-Fi</string>
+    <string name="menu_bluetooth">Bluetooth</string>
+    <string name="menu_mobile_data">Dati mobili</string>
+    <string name="menu_airplane_mode">Modalità aereo</string>
+    
+    <!-- Utilities -->
+    <string name="menu_screenshot">Screenshot</string>
+    <string name="menu_lock_screen">Blocca schermo</string>
+    <string name="menu_notification">Notifica</string>
+    <string name="menu_quick_settings">Centro di controllo</string>
+    <string name="menu_power_dialog">Menu di spegnimento</string>
+
+    <!-- Color Picker -->
+    <string name="choose_color">Scegli colore</string>
+    <string name="hex_color_hint">Colore esadecimale (#AARRGGBB)</string>
+    <string name="select">Seleziona</string>
+    <string name="cancel">Annulla</string>
+
+    <!-- Appearance & Customization -->
+    <string name="reset_to_default">Ripristina predefiniti</string>
+    <string name="ball_header_title">Sfera</string>
+    <string name="ball_color_title">Colore sfera</string>
+    <string name="ball_icon_color_title">Colore icona</string>
+    <string name="menu_header_title">Menu</string>
+    <string name="menu_color_title">Colore menu</string>
+    <string name="menu_icon_color_title">Colore icona</string>
+    <string name="menu_size_title">Dimensione menu</string>
+    <string name="menu_icon_size_title">Dimensione icona</string>
+    <string name="menu_radius_title">Raggio menu</string>
+    <string name="pill_header_title">Pillola</string>
+    <string name="pill_color_title">Colore pillola</string>
+    <string name="pill_height_title">Altezza pillola</string>
+    <string name="pill_thickness_title">Spessore pillola</string>
+    <string name="pill_touch_width_title">Larghezza area tattile</string>
+    <string name="pill_arc_angle_title">Angolo arco pillola</string>
+
+    <!-- Toast -->
+    <string name="toast_header_title">Toast</string>
+    <string name="toast_bg_color_title">Colore di sfondo</string>
+    <string name="toast_fg_color_title">Colore in primo piano</string>
+
+    <!-- Gestures -->
+    <string name="gesture_header_title">Gesti</string>
+    <string name="enable_gestures_title">Abilita gesti</string>
+    <string name="enable_gestures_description">L\'abilitazione dei gesti potrebbe ritardare leggermente l\'apertura del menu.</string>
+    <string name="double_tap_title">Doppio tocco</string>
+    <string name="triple_tap_title">Triplo tocco</string>
+    <string name="long_press_title">Pressione prolungata</string>
+    <string name="swipe_up_title">Scorri verso l\'alto</string>
+    <string name="swipe_down_title">Scorri verso il basso</string>
+    <string name="select_gesture_action_title">Seleziona azione</string>
+
+    <!-- Haptics -->
+    <string name="haptics_header_title">Feedback aptico</string>
+    <string name="vibration_feedback_title">Feedback vibrazione</string>
+    <string name="vibration_feedback_description">Vibrazione su tocchi, scorrimenti ed azioni</string>
+    <string name="haptic_light">Leggero</string>
+    <string name="haptic_medium">Medio</string>
+    <string name="haptic_strong">Forte</string>
+</resources>
